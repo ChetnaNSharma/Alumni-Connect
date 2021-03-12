@@ -32,6 +32,12 @@ Additional Features
       • Choice of creating bitmoji profile pictures  
       • Beautiful and inspiring quotes that keep on changing in a side column  
       • Chatting option  
+    
+
+
+[![Stargazers repo roster for @ChetnaNSharma/Alumni-Connect](https://reporoster.com/stars/ChetnaNSharma/Alumni-Connect)](https://github.com/ChetnaNSharma/Alumni-Connect/stargazers)
+
+[![Forkers repo roster for @ChetnaNSharma/Alumni-Connect](https://reporoster.com/forks/ChetnaNSharma/Alumni-Connect)](https://github.com/ChetnaNSharma/Alumni-Connect/network/members)
 
                                                                  
 
