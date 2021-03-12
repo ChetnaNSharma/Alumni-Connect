@@ -3,10 +3,10 @@
 
 ###  Description
     • Alumni Connect is a long awaited dream project for our college, JSS Academy Of Technical Education, Noida, 
-    Concerning the ever increasing competitive and challenging atmosphere, the opportunity of connections 
-    among college students and alumni may serve a professional and heart-warming support. 
-    We aim to build a website that serves to connect our college folk, 
-    which would bring the clan support and nostalgia in few clicks.
+      Concerning the ever increasing competitive and challenging atmosphere, the opportunity of connections 
+      among college students and alumni may serve a professional and heart-warming support. 
+      We aim to build a website that serves to connect our college folk, 
+      which would bring the clan support and nostalgia in few clicks.
 
 Well structured tabs that website contains
 
@@ -17,7 +17,8 @@ Well structured tabs that website contains
     • Know your family 
                 • Well structured batch-wise and profession-wise along with linkedln ID’s attached  
     • Share anything    
-                • Where folk can express themselves through write ups, blogs, pictures,   videos, ideas, help, appeals or requests  
+                • Where folk can express themselves through write ups, blogs, pictures, videos, ideas, 
+                  help, appeals or requests  
     • What is going on in college   
                 • Photo gallery
                 • Current projects on which students are working 
