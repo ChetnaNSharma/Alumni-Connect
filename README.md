@@ -39,5 +39,13 @@ Additional Features
 
 [![Forkers repo roster for @ChetnaNSharma/Alumni-Connect](https://reporoster.com/forks/ChetnaNSharma/Alumni-Connect)](https://github.com/ChetnaNSharma/Alumni-Connect/network/members)
 
+
+## Contributors
+
+<a href="https://github.com/ChetnaNSharma/Alumni-Connect/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ChetnaNSharma/Alumni-Connect" />
+</a>
+
+
                                                                  
 
