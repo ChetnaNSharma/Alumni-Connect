@@ -36,7 +36,6 @@ Additional Features
 TechStack
 
       • HTML, CSS, JAVASCRIPT , PYTHON
-      • Framework you are free to choose any :)
 
 
 
