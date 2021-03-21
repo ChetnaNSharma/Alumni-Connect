@@ -35,7 +35,7 @@ Additional Features
  
 TechStack
 
-      • HTML, CSS, JAVASCRIPT , PYTHON
+      • HTML, CSS, JAVASCRIPT , React JS, Node JS
 
 
 
