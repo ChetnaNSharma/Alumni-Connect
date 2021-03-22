@@ -1,8 +1,11 @@
-### 🤝First time contributing? We will help you out. 👍
+[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-GitHub custom open for collaboration
+# 🤝First time contributing? We will help you out. 👍
+    GitHub custom open for collaboration
+#
 
-### Installing Git
+## Installing Git
 
 The first step to starting to contribute is installing Git Bash. You can also use Github Desktop, but using Bash is recommended. This is because Bash allows the user to perform more commands as compared to the latter. After downloading, you need to log into Git Bash using your GitHub credentials.
 
@@ -12,7 +15,7 @@ The first step to starting to contribute is installing Git Bash. You can also us
 
 [Download Git Bash for Linux/UNIX](https://git-scm.com/download/linux)
 
-### Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
+## Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
 
 [Getting started with Git and GitHub](https://docs.github.com/en/github/getting-started-with-github)
 
@@ -22,7 +25,7 @@ The first step to starting to contribute is installing Git Bash. You can also us
 
 If you don't have git on your machine, [install it](https://docs.github.com/en/github/getting-started-with-github/set-up-git).
 
-### 💥 How to Contribute
+## 💥 How to Contribute
 
 PRs Welcome Open Source Love
 
@@ -37,36 +40,100 @@ Read the Code of Conduct
 Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 Add Screenshots to help us know what this Script is all about.
 
-### ⭐HOW TO MAKE A PULL REQUEST:
-1. Fork this repository. Click on the  symbol at the top right corner.
+## ⭐HOW TO MAKE A PULL REQUEST:
+## Fork this repository
 
-2. Clone the forked repository. Open terminal and type:
+Fork this repository by clicking on the fork button on the top of this page.
+This will create a copy of this repository in your account.
 
-git clone https://github.com/<your-github-username>/Alumni-Connect.git
+## Clone the repository
 
-3. Navigate to the project directory.
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
 
-cd Alumni-Connect
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
 
-4. Make a feature branch
+Open a terminal and run the following git command:
 
-git checkout -b <branch-name>
+```
+git clone "url you just copied"
+```
 
-5. Make changes in source code/ project.
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
-6. Stage your changes and commit
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
-#Add changes to Index
-git add .
+For example:
 
-#Commit to the local repo
-git commit -m "<your_commit_message>"
+```
+git clone https://github.com/this-is-you/first-contributions.git
+```
 
-7. Push your local commits to the remote repo.
+where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
 
-git push origin <brach-name>
+## Create a branch
 
-8. Create a PR !
+Change to the repository directory on your computer (if you are not already there):
+
+```
+cd first-contributions
+```
+
+Now create a branch using the `git checkout` command:
+
+```
+git checkout -b your-new-branch-name
+```
+
+For example:
+
+```
+git checkout -b add-alonzo-church
+```
+
+(The name of the branch does not need to have the word _add_ in it, but it's a reasonable thing to include because the purpose of this branch is to add your name to a list.)
+
+## Make necessary changes and commit those changes
+
+Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
+
+<img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
+
+If you go to the project directory and execute the command `git status`, you'll see there are changes.
+
+Add those changes to the branch you just created using the `git add` command:
+
+```
+git add Contributors.md
+```
+
+Now commit those changes using the `git commit` command:
+
+```
+git commit -m "Add <your-name> to Contributors list"
+```
+
+replacing `<your-name>` with your name.
+
+## Push changes to GitHub
+
+Push your changes using the command `git push`:
+
+```
+git push origin <add-your-branch-name>
+```
+
+replacing `<add-your-branch-name>` with the name of the branch you created earlier.
+
+## Submit your changes for review
+
+If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
+
+<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
+
+Now submit the pull request.
+
+<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
+#
 
 9. Congratulations! Sit and relax, you've made your contribution to Alumni-Connect project.
 
