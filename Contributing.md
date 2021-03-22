@@ -1,8 +1,8 @@
-###🤝First time contributing? We will help you out. 👍
+### 🤝First time contributing? We will help you out. 👍
 
 GitHub custom open for collaboration
 
-###Installing Git
+### Installing Git
 
 The first step to starting to contribute is installing Git Bash. You can also use Github Desktop, but using Bash is recommended. This is because Bash allows the user to perform more commands as compared to the latter. After downloading, you need to log into Git Bash using your GitHub credentials.
 
@@ -12,7 +12,7 @@ The first step to starting to contribute is installing Git Bash. You can also us
 
 [Download Git Bash for Linux/UNIX](https://git-scm.com/download/linux)
 
-###Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
+### Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
 
 [Getting started with Git and GitHub](https://docs.github.com/en/github/getting-started-with-github)
 
@@ -22,7 +22,7 @@ The first step to starting to contribute is installing Git Bash. You can also us
 
 If you don't have git on your machine, [install it](https://docs.github.com/en/github/getting-started-with-github/set-up-git).
 
-###💥 How to Contribute
+### 💥 How to Contribute
 
 PRs Welcome Open Source Love
 
@@ -37,7 +37,7 @@ Read the Code of Conduct
 Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 Add Screenshots to help us know what this Script is all about.
 
-###⭐HOW TO MAKE A PULL REQUEST:
+### ⭐HOW TO MAKE A PULL REQUEST:
 1. Fork this repository. Click on the  symbol at the top right corner.
 
 2. Clone the forked repository. Open terminal and type:
@@ -70,9 +70,9 @@ git push origin <brach-name>
 
 9. Congratulations! Sit and relax, you've made your contribution to Alumni-Connect project.
 
-🏆 After this, project admin and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.
+# 🏆 After this, project admin and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.
 
 💥 Issues:
 For major changes, you are welcomed to open an issue about what you would like to contribute. Enhancements will be appreciated.
 
-All the Best!🥇
+# All the Best!🥇
