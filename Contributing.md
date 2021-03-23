@@ -161,6 +161,13 @@ Now submit the pull request.
 
 9. Congratulations! Sit and relax, you've made your contribution to Alumni-Connect project.
 
+## Tech Stack 💠
+* HTML
+* CSS
+* JAVASCRIPT
+* React JS
+* Node JS
+
 # 🏆 After this, project admin and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.
 
 💥 Issues:
