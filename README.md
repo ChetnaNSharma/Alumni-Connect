@@ -59,7 +59,7 @@ GirlScript Summer of Code is the 3 month-long Open Source program during summers
 <img src="https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png" alt="gssoc" height="150" />
   </div>
 
-# Mentors 
+### Mentors 
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/awantika10/Desgen/) 
 | GitHub Usernames                                      | 
