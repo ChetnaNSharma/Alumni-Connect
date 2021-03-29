@@ -52,7 +52,7 @@ If you don't have git on your machine, [install it](https://docs.github.com/en/g
 * Put together a style guide to help the project have a consistent visual design
 * Create new logo and designs for the project
 ### 🐞 Bugs
-* Try to understand the project and come up with better solution 
+* Try to understand the project and come up with a better solution 
 * Try solving an issue that already exists or create a new issue
 * A pull request is a bug report with a solution attached
 ### 📝 Readme
@@ -82,10 +82,10 @@ Now clone the forked repository to your machine. Go to your GitHub account, open
 Open a terminal and run the following git command:
 
 ```
-git clone "url you just copied"
+git clone "URL you just copied"
 ```
 
-where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+where "URL you just copied" (without the quotation marks) is the URL to this repository (your fork of this project). See the previous steps to obtain the URL.
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
@@ -159,7 +159,7 @@ If you go to your repository on GitHub, you'll see a `Compare & pull request` bu
 
 Now submit the pull request.
 
-9. Congratulations! Sit and relax, you've made your contribution to Alumni-Connect project.
+9. Congratulations! Sit and relax, you've made your contribution to the Alumni-Connect project.
 
 ## Tech Stack 💠
 * HTML
@@ -168,7 +168,7 @@ Now submit the pull request.
 * React JS
 * Node JS
 
-# 🏆 After this, project admin and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.
+# 🏆 After this, the project admin and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.
 
 💥 Issues:
 For major changes, you are welcomed to open an issue about what you would like to contribute. Enhancements will be appreciated.
