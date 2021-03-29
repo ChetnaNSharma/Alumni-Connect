@@ -52,7 +52,6 @@ Go through these guidelines and contribute accordingly:
  
 - #### GirlScript Summer of Code 2021 
 
-About
 GirlScript Summer of Code is a 3 month-long Open Source program during summers conducted by GirlScript Foundation, started in 2018, intending to help beginners get started with Open Source Development while encouraging diversity.
 
 <div >
