@@ -8,9 +8,9 @@
 
 ###  Description
 <img alt="Size" src="https://img.shields.io/github/repo-size/ChetnaNSharma/Alumni-Connect">
-    • Alumni Connect is a long awaited dream project for our college, JSS Academy Of Technical Education, Noida, 
-      Concerning the ever increasing competitive and challenging atmosphere, the opportunity of connections 
-      among college students and alumni may serve a professional and heart-warming support. 
+    • Alumni Connect is a long-awaited dream project for our college, JSS Academy Of Technical Education, Noida, 
+      concerning the ever-increasing competitive and challenging atmosphere, the opportunity of connections 
+      among college students and alumni may serve professional and heart-warming support. 
       We aim to build a website that serves to connect our college folk, 
       which would bring the clan support and nostalgia in few clicks.
 
@@ -21,9 +21,9 @@
                 • Information regarding job availability that alumni may share
                 • Tips of preparation strategies by alumni to sail over desired professional fields
     • Know your family 
-                • Well structured batch-wise and profession-wise along with linkedln ID’s attached  
+                • Well structured batch-wise and profession-wise along with LinkedIn ID’s attached  
     • Share anything    
-                • Where folk can express themselves through write ups, blogs, pictures, videos, ideas, 
+                • Where folk can express themselves through write-ups, blogs, pictures, videos, ideas, 
                   help, appeals or requests  
     • What is going on in college   
                 • Photo gallery
@@ -32,7 +32,7 @@
                 • College news updates 	
 ### Additional Features
 
-      • Website with layout of finest professional design  
+      • Website with the layout of finest professional design  
       • Login/ Register feature for alumni and students  
       • Well suited anime theme for website  
       • Choice of creating bitmoji profile pictures  
@@ -52,8 +52,7 @@ Go through these guidelines and contribute accordingly:
  
 - #### GirlScript Summer of Code 2021 
 
-About
-GirlScript Summer of Code is the 3 month-long Open Source program during summers conducted by GirlScript Foundation, started in 2018, intending to help beginners get started with Open Source Development while encouraging diversity.
+GirlScript Summer of Code is a 3 month-long Open Source program during summers conducted by GirlScript Foundation, started in 2018, intending to help beginners get started with Open Source Development while encouraging diversity.
 
 <div >
 <img src="https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png" alt="gssoc" height="150" />
