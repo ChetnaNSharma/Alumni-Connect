@@ -9,7 +9,7 @@
   
 * Once you have browsed through the repo of the project you should glance at the tech stack required for this project.
   
-* Take a look at the existing issues or fee free to create your own issues!
+* Take a look at the existing issues or feel free to create your own issues!
 
 * Read the Code of Conduct and the Contribution Guideline very thoroughly to meet the expectations of the project.
 
