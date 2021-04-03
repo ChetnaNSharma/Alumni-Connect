@@ -55,7 +55,7 @@ Go through these guidelines and contribute accordingly:
 GirlScript Summer of Code is a 3 month-long Open Source program during summers conducted by GirlScript Foundation, started in 2018, intending to help beginners get started with Open Source Development while encouraging diversity.
 
 <div >
-<img src="https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png" alt="gssoc" height="150" />
+<img src="https://i.ibb.co/3SxqG1h/GSsoc-Type-Logo.jpg" alt="gssoc" height="150" />
   </div>
 
 ### Mentors 
