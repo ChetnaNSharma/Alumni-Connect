@@ -1,0 +1,26 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul {
+list-style:none;
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+ul li {
+    margin-top: 1%;
+}
+a{
+ text-decoration: none;
+ color: white;
+}
+.nav{
+    background-color: black;
+    height: 50px;
+
+}
