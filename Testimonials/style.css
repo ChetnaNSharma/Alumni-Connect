@@ -39,6 +39,34 @@
   .button1:hover{
       background-color:deepskyblue;
   }
+  .menu
+  {
+      display:none;
+      position:absolute;
+      background-color:skyblue;
+      min-width:160px;
+      box-shadow:0px 8px 16px 0px;
+      z-index:1;
+
+  }
+  .menu a{
+    float: none;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: block;
+    text-align: left; 
+  }
+  .menu a:hover{
+    background-color: #ddd;
+  }
+  .menu1:hover .menu{
+      display:block;
+  }
+  .listtype
+  {
+      list-style-type: none;
+  }
   .button3 {
     border: none;
     color:white;
@@ -58,7 +86,7 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: grey;
+    background-color:grey;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -70,7 +98,7 @@
     padding: 15px 32px;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: left;   
   }
   
   .dropdown-content a:hover {
