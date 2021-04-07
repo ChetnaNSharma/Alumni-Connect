@@ -1,0 +1,81 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #666;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  
+  /**************************************/
+  /****************TABLE*****************/
+  /**************************************/
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    border-radius: 6px;
+    color: #666;
+    display: table;
+    font-size: 13px;
+    max-width: 100%;
+    overflow-x: auto;
+    position: relative;
+    width: 100%;
+    font-size: 30px;
+  }
+  
+  table td,
+  table th {
+    border-top: 3px solid #eee;
+    display: table-cell;
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+   
+  }
+  
+  table th {
+    border-bottom: 5px solid #eee;
+    vertical-align: middle;
+    text-decoration-line: underline;
+  }
+  
+  .item-cell {
+    padding: 2px 12px;
+    /* use for cells containing buttons, sliders, etc. */
+  }
+  .heading
+  {
+     color: #40bb93;
+      text-align: center;
+      text-decoration-line: underline;
+      font-size: 60px;
+  }
+  
+  
+  
