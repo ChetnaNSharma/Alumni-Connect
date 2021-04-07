@@ -38,10 +38,10 @@ The issues (previously existing) will be labelled and will fall under the follow
 * Points awarded- 10
 ### Level2
 * Bug fixing, adding small features.
-* Points awarded- 15
+* Points awarded- 25
 ### Level3
 * New features, major bug fixing.
-* Points awarded- 25
+* Points awarded- 45
 
 
 ## ⭐ What you can contribute:
