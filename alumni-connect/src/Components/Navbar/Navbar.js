@@ -1,30 +1,30 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Navbar.css';
-import {Link, BrowserRouter as Router} from 'react-router-dom';
+import ReorderIcon from '@material-ui/icons/Reorder';
 
 
 
 const Navbar = () => {
+
+    const [showLinks ,setShowLinks] = useState(false)
     return (
-      <div className = "nav">
-        <Router>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About-us</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact-Us</Link>
-            </li>
-            <li>
-              <Link to="/">Services</Link>
-            </li>
-          </ul>
-        </Router>
-      </div>
+        <div className="navbar">
+            <div className="leftside">
+                <a  href="/">AluminConnect</a>
+            </div>
+            
+            <div className="rightside">
+                <div className="links" id={showLinks ? "hidden" : ""}>
+                    <a  href="/">Home</a>
+                    <a href="/about">About </a>
+                    <a href="/contact">Contact </a>
+                    <a href="/service">Services </a>
+                </div>
+                <button onClick={()=> setShowLinks(!showLinks)}><ReorderIcon/></button>
+            </div>
+            
+        </div>
     );
 }
 
-export default Navbar
+export default Navbar 
