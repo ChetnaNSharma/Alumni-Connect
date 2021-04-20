@@ -1,29 +1,25 @@
 import React from 'react'
 import './Navbar.css';
-import {Link, BrowserRouter as Router} from 'react-router-dom';
 
 
 
 const Navbar = () => {
     return (
-      <div className = "nav">
-        <Router>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About-us</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact-Us</Link>
-            </li>
-            <li>
-              <Link to="/">Services</Link>
-            </li>
-          </ul>
-        </Router>
-      </div>
+        <div className="navbar">
+        <div className="leftside">
+            <a  href="/">AluminConnect</a>
+        </div>
+        
+        <div className="rightside">
+            <div className="links" >
+                <a  href="/">Home</a>
+                <a href="/about">About </a>
+                <a href="/contact">Contact </a>
+                <a href="/service">Services </a>
+            </div>
+        </div>
+        
+    </div>
     );
 }
 
