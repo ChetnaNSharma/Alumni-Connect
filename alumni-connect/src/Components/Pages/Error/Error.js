@@ -1,11 +1,17 @@
 import React from 'react'
 
-const Contact = () => {
+import './Error.css'
+import CircularProgress from '@material-ui/core/CircularProgress';
+
+const NotFound = () => {
     return (
-        <div>
-            <h1>Error</h1>
-        </div>
+        <div class="mainbox">
+        <div class="err">4</div>
+        <CircularProgress  className="spinner"/>
+        <div class="err2">4</div>
+        <div class="msg">Maybe this page moved? Got deleted? Is hiding out in quarantine? Never existed in the first place?<p>Let's go <a href="/">home</a> and try from there.</p></div>
+          </div>
     )
 }
 
-export default Contact
+export default NotFound
