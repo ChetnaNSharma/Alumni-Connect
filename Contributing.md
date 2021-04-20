@@ -1,45 +1,48 @@
-![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)
-
- [![License: MIT](https://img.shields.io/github/license/ChetnaNSharma/Alumni-Connect)](https://opensource.org/licenses/MIT)
 
 # 🤝First time contributing? We will help you out. 👍
     GitHub custom open for collaboration
-#
 
-## Installing Git
-
-The first step to starting to contribute is installing Git Bash. You can also use Github Desktop, but using Bash is recommended. This is because Bash allows the user to perform more commands as compared to the latter. After downloading, you need to log into Git Bash using your GitHub credentials.
-
-* [Download Git Bash for Mac](https://git-scm.com/download/mac)
-
-* [Download Git Bash for Windows](https://git-scm.com/download/win)
-
-* [Download Git Bash for Linux/UNIX](https://git-scm.com/download/linux)
-
-## Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
-
-* [Getting started with Git and GitHub](https://docs.github.com/en/github/getting-started-with-github)
-
-* [Forking and Cloning a Repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) 
-
-* [How to create a Pull Request](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/creating-an-issue-or-pull-request)
-
-If you don't have git on your machine, [install it](https://docs.github.com/en/github/getting-started-with-github/set-up-git).
 
 ## 💥 How to Contribute:
 
-* PRs Welcome Open Source Love
+* Open source contributions are all about making changes to the project and pushing PRs to ensure that your contribution can be made visible in the final project.
+  
+* Once you have browsed through the repo of the project you should glance at the tech stack required for this project.
+  
+* Take a look at the existing issues or feel free to create your own issues!
 
-* Take a look at the Existing Issues or create your own Issues!
+* Read the Code of Conduct and the Contribution Guideline very thoroughly to meet the expectations of the project.
 
-* Wait for the Issue to be assigned to you after which you can start working on it.
+* Wait for the issue to be assigned to you after which you can start working on it.
 
-* Fork the Repo and create a Branch for any Issue that you are working upon.
+* Fork the Repo and create a Branch for the specific Issue that you are working upon.
 
-* Read the Code of Conduct
+* Make your changes and create a Pull Request which will be promptly reviewed and suggestions would be added to improve it before merging.
+  
+* Add Screenshots to help us know what the Script is all about.
 
-* Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
-* Add Screenshots to help us know what this Script is all about.
+## ⭐ Finding a relevant issue:
+The issues (previously existing) will be labelled and will fall under the following categories:
+
+### documentation
+* Improvements or additions to the documentation needed
+### good first issue
+* Good issue for open source beginners to work on
+### gssoc21
+* Mandatory tag for all projects part of GSSOC'21 (case insensitive tag, i.e gssoc21 and GSSOC21 will be trated as the same)
+### Level0
+* Minor Documentation
+* Points awarded- 5
+### Level1
+* Major Documentation
+* Points awarded- 10
+### Level2
+* Bug fixing, adding small features.
+* Points awarded- 25
+### Level3
+* New features, major bug fixing.
+* Points awarded- 45
+
 
 ## ⭐ What you can contribute:
 ### 📣 Discussions
@@ -52,7 +55,7 @@ If you don't have git on your machine, [install it](https://docs.github.com/en/g
 * Put together a style guide to help the project have a consistent visual design
 * Create new logo and designs for the project
 ### 🐞 Bugs
-* Try to understand the project and come up with better solution 
+* Try to understand the project and come up with a better solution 
 * Try solving an issue that already exists or create a new issue
 * A pull request is a bug report with a solution attached
 ### 📝 Readme
@@ -82,10 +85,12 @@ Now clone the forked repository to your machine. Go to your GitHub account, open
 Open a terminal and run the following git command:
 
 ```
-git clone "url you just copied"
+git clone "URL you just copied"
 ```
 
-where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+issue-5
+where "URL you just copied" (without the quotation marks) is the URL to this repository (your fork of this project). See the previous steps to obtain the URL.
+main
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
@@ -95,14 +100,14 @@ For example:
 git clone https://github.com/this-is-you/first-contributions.git
 ```
 
-where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
+where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer(local machine).
 
 ## Create a branch
 
 Change to the repository directory on your computer (if you are not already there):
 
 ```
-cd first-contributions
+cd <name of the project>
 ```
 
 Now create a branch using the `git checkout` command:
@@ -130,16 +135,16 @@ If you go to the project directory and execute the command `git status`, you'll 
 Add those changes to the branch you just created using the `git add` command:
 
 ```
-git add Contributors.md
+git add .
 ```
 
 Now commit those changes using the `git commit` command:
 
 ```
-git commit -m "Add <your-name> to Contributors list"
+git commit -m "Add <your-name> to Contributors list. Give a meaningful message describing what significant feature/attribute did you work on"
 ```
 
-replacing `<your-name>` with your name.
+replace `<your-name>` with your name.
 
 ## Push changes to GitHub
 
@@ -159,7 +164,9 @@ If you go to your repository on GitHub, you'll see a `Compare & pull request` bu
 
 Now submit the pull request.
 
-9. Congratulations! Sit and relax, you've made your contribution to Alumni-Connect project.
+
+Congratulations! Sit and relax, you've made your contribution to the Alumni-Connect project.
+main
 
 ## Tech Stack 💠
 * HTML
@@ -168,9 +175,20 @@ Now submit the pull request.
 * React JS
 * Node JS
 
-# 🏆 After this, project admin and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.
+
+# 🏆 After this, the project admin and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.
+
 
 💥 Issues:
 For major changes, you are welcomed to open an issue about what you would like to contribute. Enhancements will be appreciated.
+
+
+## Refer to the following articles detailing the basics of Git and Github:
+
+* [Getting started with Git and GitHub](https://docs.github.com/en/github/getting-started-with-github)
+
+* [Forking and Cloning a Repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) 
+
+* [How to create a Pull Request](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/creating-an-issue-or-pull-request)
 
 # All the Best!🥇
