@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
 import './Navbar.css';
+
 import ReorderIcon from '@material-ui/icons/Reorder';
+
 
 
 
@@ -9,6 +11,7 @@ const Navbar = () => {
     const [showLinks ,setShowLinks] = useState(false)
     return (
         <div className="navbar">
+
             <div className="leftside">
                 <a  href="/">AluminConnect</a>
             </div>
@@ -24,6 +27,7 @@ const Navbar = () => {
             </div>
             
         </div>
+
     );
 }
 
