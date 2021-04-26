@@ -1,99 +1,100 @@
 body{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .navbar{
-  box-shadow: 0 8px 6px -6px gray;
-  background-color: #2C3E50 ;
-  width: 100%;
-  height: 80px;
-  font-family: 'Courier New', Courier, monospace;
-  display: flex;
+    box-shadow: 0 8px 6px -6px gray;
+    background-color: #2C3E50 ;
+    width: 100%;
+    height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
 }
 .navbar .rightside{
-  flex: 70%;
-  justify-content: right;
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
+    flex: 70%;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
 }
 .navbar .rightside .links{
-  max-height: 80px;
+    max-height: 80px;
 }
 .navbar .rightside .links a {
-  text-decoration: none;
-  color: white;
-  font-size: 25px;
-  margin-right: 20px;
-  padding:20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+    padding:20px;
 }
 .navbar .rightside .links a:hover{
-  background-color: white;
-  color: #2C3E50;
-  font-weight: bold;
-  border-radius: 10px;
+    background-color: white;
+    color: #2C3E50;
+    font-weight: bold;
+    border-radius: 10px;
 }
 .navbar .rightside button{
-  display: none;
-  margin-left: 150px;
+    display: none;
+    margin-left: 150px;
 }
 #hidden{
-  display: flex;
+    display: flex;
 }
 .navbar .leftside {
-  flex: 70%;
-  display: flex;
-  align-items: center;
-  padding-left: 25px;
-  justify-content: left;
+    flex: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    justify-content: left;
 }
 .navbar .leftside a{
-  text-decoration: none;
-  color: white;
-  font-size: 30px;
-  font-weight: bolder;
-  
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    
 }
 @media only screen and (max-width:850px) {
-  .navbar .rightside .links a {
-      font-size: 20px;
-  }
+    .navbar .rightside .links a {
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width:750px) {
-  .navbar .rightside .links a {
-      font-size: 15px;
-  }
+    .navbar .rightside .links a {
+        font-size: 15px;
+    }
 }
 @media only screen and (max-width:650px) {
-  .navbar .rightside button{
-      display: flex;
-      
-  }
-  .navbar .rightside .links{
-      display: none;
-  }
-  #hidden{
-      position: absolute;
-      left: 0;
-      top: 80px;
-      height: 290px;
-      max-height: 290px;
-      width: 100%;
-      background-color:#2C3E50 ;
-      display: flex;
-      flex-direction:column ;
-      align-items: center;
-  }
-  #hidden a{
-      margin: 5px;
-      font-size: 20px;
-  }
-  #hidden a:hover{
-      background-color: white;
-      color:#2C3E50  ;
-      width: 90%;
-      text-align: center;
-      border-radius:10px ;
-  }
+    .navbar .rightside button{
+        display: flex;
+        
+    }
+    .navbar .rightside .links{
+        display: none;
+    }
+    #hidden{
+        position: absolute;
+        left: 0;
+        top: 80px;
+        height: 290px;
+        max-height: 290px;
+        width: 100%;
+        background-color:#2C3E50 ;
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    }
+    #hidden a{
+        margin: 5px;
+        font-size: 20px;
 
-} 
+
+    }
+    #hidden a:hover{
+        background-color: white;
+        color:#2C3E50  ;
+        width: 90%;
+        text-align: center;
+        border-radius:10px ;
+    }
+}
