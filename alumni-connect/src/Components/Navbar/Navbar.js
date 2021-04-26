@@ -9,17 +9,17 @@ const Navbar = () => {
       <div className = "nav">
         <Router>
           <ul>
-            <li>
-              <Link to="/">Home</Link>
+            <li className="option">
+              <Link className="Nav-bar" to="/">Home</Link>
             </li>
-            <li>
-              <Link to="/about">About-us</Link>
+            <li className="option">
+              <Link className="Nav-bar" to="/about">About-us</Link>
             </li>
-            <li>
-              <Link to="/contact">Contact-Us</Link>
+            <li className="option">
+              <Link className="Nav-bar" to="/contact">Contact-Us</Link>
             </li>
-            <li>
-              <Link to="/">Services</Link>
+            <li className="option">
+              <Link className="Nav-bar" to="/">Services</Link>
             </li>
           </ul>
         </Router>

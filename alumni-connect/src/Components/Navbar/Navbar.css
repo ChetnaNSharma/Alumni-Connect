@@ -22,5 +22,21 @@ a{
 .nav{
     background-color: black;
     height: 50px;
-
 }
+
+.Nav-bar{
+  width: 90%;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  font-weight: 700;
+} 
+.Nav-bar:hover{
+   border-radius: 1rem; 
+   box-shadow: 2px 2px 3px 3px rgb(216, 191, 216),
+                 2px 2px 5px 4px rgb(216, 191, 216);
+   color: rgb(216, 191, 216);
+}
+
+.option :hover {
+    color: white;
+  }
