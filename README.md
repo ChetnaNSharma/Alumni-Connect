@@ -24,7 +24,7 @@
                 • Well structured batch-wise and profession-wise along with LinkedIn ID’s attached  
     • Share anything    
                 • Where folk can express themselves through write-ups, blogs, pictures, videos, ideas, 
-                  help, appeals or requests  
+                  help, appeals, or requests  
     • What is going on in college   
                 • Photo gallery
                 • Current projects on which students are working 
