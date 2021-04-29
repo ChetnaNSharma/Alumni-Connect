@@ -7,15 +7,7 @@
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
 
 ###  Description
-<img alt="Size" src="https://img.shields.io/github/repo-size/ChetnaNSharma/Alumni-Connect">
-    • Alumni Connect is a long-awaited dream project for our college, JSS Academy Of Technical Education, Noida, 
-      concerning the ever-increasing competitive and challenging atmosphere, the opportunity of connections 
-      among college students and alumni may serve professional and heart-warming support. 
-      We aim to build a website that serves to connect our college folk, 
-      which would bring the clan support and nostalgia in few clicks.
-
-### Well structured tabs that website contains
-
+n
     • Corporate Desk
                 • Request of job referral
                 • Information regarding job availability that alumni may share
@@ -24,13 +16,11 @@
                 • Well structured batch-wise and profession-wise along with LinkedIn ID’s attached  
     • Share anything    
                 • Where folk can express themselves through write-ups, blogs, pictures, videos, ideas, 
-                  help, appeals or requests  
+
     • What is going on in college   
                 • Photo gallery
                 • Current projects on which students are working 
                 • Achievements by students
-                • College news updates 	
-### Additional Features
 
       • Website with the layout of finest professional design  
       • Login/ Register feature for alumni and students  
@@ -50,34 +40,13 @@ Go through these guidelines and contribute accordingly:
      
 ### Open Source Contests
  
-- #### GirlScript Summer of Code 2021 
-
-GirlScript Summer of Code is a 3 month-long Open Source program during summers conducted by GirlScript Foundation, started in 2018, intending to help beginners get started with Open Source Development while encouraging diversity.
-
-<div >
-<img src="https://i.ibb.co/3SxqG1h/GSsoc-Type-Logo.jpg" alt="gssoc" height="150" />
-  </div>
-
-### Mentors 
-
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/awantika10/Desgen/) 
-| GitHub Usernames                                      | 
-| ----------------------------------------------------- | 
-| [@yash982000](https://github.com/yash982000)            | 
-
-
 
 [![Stargazers repo roster for @ChetnaNSharma/Alumni-Connect](https://reporoster.com/stars/ChetnaNSharma/Alumni-Connect)](https://github.com/ChetnaNSharma/Alumni-Connect/stargazers)
-
+ 
 [![Forkers repo roster for @ChetnaNSharma/Alumni-Connect](https://reporoster.com/forks/ChetnaNSharma/Alumni-Connect)](https://github.com/ChetnaNSharma/Alumni-Connect/network/members)
-
-
-### Contributors
 
 <a href="https://github.com/ChetnaNSharma/Alumni-Connect/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ChetnaNSharma/Alumni-Connect" />
 </a>
-
-
-                                                                 
+ 
 
