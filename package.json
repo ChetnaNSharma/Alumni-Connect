@@ -1,0 +1,31 @@
+{
+  "name": "alumni-connect",
+  "version": "1.0.0",
+  "description": "Alumni-Connect",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kriti-bit/Alumni-Connect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kriti-bit/Alumni-Connect/issues"
+  },
+  "homepage": "https://github.com/Kriti-bit/Alumni-Connect#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "nodemon": "^2.0.7"
+  }
+}
