@@ -9,6 +9,7 @@ import Error from './Components/Pages/Error/Error';
 import Service from './Components/Pages/Service/Service';
 import Footer from './Components/Pages/Footer/Footer'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import ChatBot from './Components/ChatBot/ChatBot'
 
 function App() {
   return (
@@ -22,9 +23,9 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route exact path="/service" component={Service} />
           <Route component={Error} />
-
         </Switch>
       </Router>
+      <ChatBot />
       <Footer/>
       <Scroll />
     </div>
