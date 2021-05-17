@@ -5,6 +5,7 @@ import Scroll from "./Components/ScrollToTop/ScrollToTop";
 import Error from "./Components/Pages/Error/Error";
 import Footer from "./Components/Pages/Footer/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ChatBot from './Components/ChatBot/ChatBot'
 const Home = React.lazy(() => {
   return new Promise((resolve) => {
     setTimeout(() => resolve(import("./Components/Pages/Home/Home")), 6000);
@@ -36,7 +37,6 @@ function App() {
   return (
     <>
       <Navbar />
-
       <Router>
         <React.Suspense fallback={<Preloader />}>
           <Switch>
@@ -48,7 +48,7 @@ function App() {
           </Switch>
         </React.Suspense>
       </Router>
-
+      <ChatBot />
       <Footer />
       <Scroll />
     </>
