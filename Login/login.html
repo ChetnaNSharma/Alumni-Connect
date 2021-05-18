@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<script>
+    function myFunction() {
+  var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+function myFunction2() {
+  var x = document.getElementById("password-field");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
 <head>
     <title>Alumni Connect - Sign-Up </title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,7 +39,8 @@
                         <input type="text" name="name" placeholder="Username" required="">
                     </div>
                     <div class="form-left-to-w3l ">
-                        <input type="password" name="password" placeholder="Password" required="">
+                        <input type="password" name="password" placeholder="Password" required="" id="password">
+                        <input type="checkbox" onclick="myFunction()" class="checkbox"><span>&nbsp; Show Password</span>
                         <div class="clear"></div>
                     </div>
                 </div>
@@ -60,8 +78,10 @@
                                 <input type="email" name="email" placeholder="Email" required="">
                             </div>
                             <div class="form-left-to-w3l">
-                                <input type="password" name="password" placeholder="Password" required="">
+                                <input type="password" name="password" placeholder="Password" required="" id="password-field">
+                                <div class="checkbox2"><input type="checkbox" onclick="myFunction2()"><span>&nbsp; Show Password</span>
                             </div>
+                            </div><br/>
                             <div class="form-left-to-w3l margin-zero">
                                 <input type="password" name="password" placeholder="Confirm Password" required="">
                             </div>

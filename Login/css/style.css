@@ -630,3 +630,16 @@ input.checked {
         padding: 3em 1.5em;
     }
 }
+.checkbox{
+    margin-left: -0.1%;  
+}
+
+span{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.checkbox2{
+    margin-left: -70%;
+    margin-top: -3.5vh;
+}
