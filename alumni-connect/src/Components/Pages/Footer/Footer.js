@@ -73,7 +73,7 @@ function Footer() {
                     <a href='/'>Home</a>
                   </li>
                   <li>
-                    <a href='/#'>services</a>
+                    <a href='/service'>services</a>
                   </li>
                   <li>
                     <a href='/about'>About us</a>
