@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css';
 import Preloader from "./Components/Preloader/Preloader";
 import Navbar from "./Components/Navbar/Navbar";
 import Scroll from "./Components/ScrollToTop/ScrollToTop";
