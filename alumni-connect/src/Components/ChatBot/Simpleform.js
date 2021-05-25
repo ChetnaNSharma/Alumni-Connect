@@ -4,7 +4,11 @@ import ChatBot from 'react-simple-chatbot';
 class SimpleForm extends Component {
     render() {
       return (
-        <ChatBot
+        <ChatBot 
+        recoginiton={true}
+        speechSynthesis=
+        {{enable:speechSynthesis,
+        lang:'en'}}
           steps={[
             {
               id: '1',
