@@ -3,6 +3,7 @@ const router = express.Router()
 const { check,validationResult } = require('express-validator')
 const User = require('../../models/Student')
 const bcrypt = require('bcryptjs')
+var nodemailer = require('nodemailer');
 const jwt = require('jsonwebtoken')
 
 router.post('/',[
@@ -68,5 +69,43 @@ router.post('/',[
         res.status(500).send('Server Error')
     }    
 })
-
-module.exports = router
+const sendEmail = (req, res) => {
+    var transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: 'xyz@gmail.com',
+        pass: `${pass}`,
+      },
+    });
+  
+    let mailOptions;
+  
+    if (req.params.c == 1) {
+      mailOptions = {
+        from: 'xyz@gmail.com',
+        to: req.params.email,
+        subject: 'Alumni-Connect.com',
+        text:
+          'Greetings from Alumni-connect.com !!. We are glad to see you and will try to serve our great and best services to you. \n\nThanks and regards  ',
+      };
+    }
+  
+    if (req.params.c == 2) {
+      mailOptions = {
+        from: 'xyz@gmail.com',
+        to: req.params.email,
+        subject: 'Alumni-connect.com',
+        text:
+          'It is very disheartening to see you leave. We hope that you liked our service and would come back again. \n\nThanks and regards',
+      };
+    }
+  
+    transporter.sendMail(mailOptions, function (error) {
+      if (error) {
+        res.status(400).json('Error: ' + error);
+      } else {
+        res.json('Email sent!');
+      }
+    });
+  };
+module.exports = {router,sendEmail};
