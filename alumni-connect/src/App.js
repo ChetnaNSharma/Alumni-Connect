@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import Preloader from "./Components/Preloader/Preloader";
 import Navbar from "./Components/Navbar/Navbar";
+import AlertBox from "./Components/AlertBox/alertbox"
 import Scroll from "./Components/ScrollToTop/ScrollToTop";
 import Error from "./Components/Pages/Error/Error";
 import Footer from "./Components/Pages/Footer/Footer";
@@ -38,6 +39,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <AlertBox />
       <Router>
         <React.Suspense fallback={<Preloader />}>
           <Switch>
