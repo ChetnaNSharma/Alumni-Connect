@@ -69,6 +69,35 @@ router.post('/',[
         res.status(500).send('Server Error')
     }    
 })
+// Update existing user document to the db
+const updateUser = (req, res) => {
+  User.findById(req.params.id)
+    .then(user => {
+      user.name = req.body.title;
+      user.email = req.body.userName;
+      user.password = req.body.subject;
+      user.contact = req.body.contact;
+      user.branch = req.body.branch;
+      user.year = req.body.year;
+      user.degree = req.body.degree;
+      user.instituteName = req.body.instituteName;
+
+      user
+        .save()
+        .then(() => res.json('Exercise updated!'))
+        .catch(err => res.status(400).json('Error: ' + err));
+    })
+    .catch(err => res.status(400).json('Error: ' + err));
+};
+
+// Delete existing user document on basis of ID
+const deleteUser = (req, res) => {
+  User.findByIdAndDelete(req.params.id)
+    .then(() => res.json('Profile deleted.'))
+    .catch(err => res.status(400).json('Error: ' + err));
+};
+
+// Emailer
 const sendEmail = (req, res) => {
     var transporter = nodemailer.createTransport({
       service: 'gmail',
@@ -108,4 +137,4 @@ const sendEmail = (req, res) => {
       }
     });
   };
-module.exports = {router,sendEmail};
+module.exports = {router,sendEmail,updateUser, deleteUser};
