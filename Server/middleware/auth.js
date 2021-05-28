@@ -1,21 +1,35 @@
-const jwt = require('jsonwebtoken')
-const config = require('config')
-
-module.exports = function(req,res,next) 
-{
-    const token = req.header('x-auth-token')
-
-    if(!token)
-    {
-        return res.status(401).json({ msg: 'No token, authorisation denied '})
+const requireSignin = (req, res, next) => {
+    if (req.headers.authorization) {
+        const token = req.headers.authorization.split(" ")[1];
+        const user = jwt.verify(token, process.env.JWT_SECRET);
+        req.user = user;
+    } else {
+        return res
+            .status(401)
+            .json(responseHandler(false, 401, "authorization required", null));
     }
+    next();
+};
 
-    //Verifying existing Token
-    try {
-        const decoded = jwt.verify(token, config.get('jwtSecret'))
-        req.user = decoded.user
-        next()
-    }catch (err){
-        res.status(401).json({ msg: 'Token is not valid'})
+const userMiddleWare = (req, res, next) => {
+    if (req.user.role !== "user") {
+        return res
+            .status(401)
+            .json(responseHandler(false, 401, "User Acess Denied!", null));
     }
-}
+    next();
+};
+
+const adminMiddleWare = (req, res, next) => {
+    if (req.user.role !== 'admin') {
+      res.status(401)
+      .json(responseHandler(false, 401, "Not authorized as an admin", null));
+    }
+    next();
+  }
+
+module.exports = commonMiddleware = {
+    requireSignin,
+    userMiddleWare,
+    adminMiddleWare
+};
