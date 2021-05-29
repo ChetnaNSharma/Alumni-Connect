@@ -26,6 +26,8 @@ const addNewUser = (req, res) => {
         year = req.body.year,
         degree = req.body.degree,
         instituteName = req.body.instituteName,
+        isAdmin: req.body.isAdmin,
+        
   });
 
   newUser
@@ -42,13 +44,14 @@ const addNewUser = (req, res) => {
 const updateUser = (req, res) => {
     User.findById(req.params.id)
       .then(user => {
-        email = req.body.email,
-        password = req.body.password,
-        contact = req.body.contact,
-        branch = req.body.branch,
-        year = req.body.year,
-        degree = req.body.degree,
-        instituteName = req.body.instituteName,
+        user.email = req.body.email,
+        user.password = req.body.password,
+        user.contact = req.body.contact,
+        user.branch = req.body.branch,
+        user.year = req.body.year,
+        user.degree = req.body.degree,
+        user.instituteName = req.body.instituteName,
+        user.isAdmin = req.body.isAdmin;
   
         user
           .save()

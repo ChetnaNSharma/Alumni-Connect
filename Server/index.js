@@ -31,12 +31,13 @@ connection.once('open', () => {
   console.log('MongoDB database connection established successfully');
 });
 
-const studentRouter = require('./routes/Student');
-
+const studentRouter = require('./routes/user');
+const adminRouter = require('./routes/admin');
 
 //User Routes
 app.use('/users', studentRouter);
-
+//Admin Routes
+app.use('/admin', adminRouter);
 
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);

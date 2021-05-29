@@ -20,16 +20,7 @@ const userMiddleWare = (req, res, next) => {
     next();
 };
 
-const adminMiddleWare = (req, res, next) => {
-    if (req.user.role !== 'admin') {
-      res.status(401)
-      .json(responseHandler(false, 401, "Not authorized as an admin", null));
-    }
-    next();
-  }
-
 module.exports = commonMiddleware = {
     requireSignin,
     userMiddleWare,
-    adminMiddleWare
 };
