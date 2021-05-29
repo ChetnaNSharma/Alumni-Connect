@@ -1,6 +1,9 @@
 
 const express = require('express');
 const mongoSanitize = require('express-mongo-sanitize');
+const rateLimit = require('express-rate-limit');
+const xss = require('xss-clean');
+const helmet = require('helmet');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const path = require('path');
@@ -15,10 +18,23 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use('/', express.static('./public'));
 app.use(express.static(path.join(__dirname, 'public')));
+// set HTTP security headers
+app.use(helmet());
+
+//limit requests from same IP
+const limiter = rateLimit({
+  max: 100,
+  windowMs: 60 * 60 * 1000,
+  message: 'To many request from this IP, please try again after an hour!',
+});
+
+app.use('/', limiter);
 
 //data sanitization against noSQL query injection
 app.use(mongoSanitize());
 
+//data sanitization against xss
+app.use(xss());
 
 const url = `mongodb+srv://${username}:${pass}${myCluster}.mongodb.net/project?retryWrites=true&w=majority`;
 mongoose.connect(url, {
