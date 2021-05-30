@@ -7,5 +7,6 @@ router.route('/add').post(userController.addNewUser);
 router.route('/update/:id').post(userController.updateUser);
 router.route('/delete/:id').delete(userController.deleteUser);
 router.route('/sendMail/:email/:c').get(userController.sendEmail);
+router.put("/followUser/:user_id", requireSignin, userMiddleWare, userController.followUser );
 
 module.exports = router;
