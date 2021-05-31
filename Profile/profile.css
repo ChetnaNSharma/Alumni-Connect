@@ -1,0 +1,43 @@
+body {
+  margin-top: 10px;
+  background-color: lightgrey;
+}
+.main {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topbar {
+  background-color: teal;
+  overflow: hidden;
+}
+.topbar a {
+  float: right;
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+  font-size: 26px;
+}
+.topbar a:hover {
+  background-color: #333;
+}
+.sidebar {
+  background-color: #333;
+  color: white;
+  height: 100%;
+  padding-top: 10px;
+  padding-left: 45%;
+}
+
+.sidebar img {
+  border-radius: 85px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  background-color: whitesmoke;
+  padding: 45px;
+}
