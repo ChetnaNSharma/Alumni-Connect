@@ -4,14 +4,14 @@ import "./Preloader.css";
 function Preloader() {
   return (
     <div className="preloader">
-      <div className="updown">
-        <h1>
-          ALUMNI-CONNECT<span> .</span>
-          <span> .</span>
-          <span> .</span>
-        </h1>
+            <div className="container7">
+        <div className="banner">
+          LOADING
+          <div className="banner-left"></div>
+          <div className="banner-right"></div>
+        </div>
       </div>
-    </div>
+        </div>
   );
 }
 
