@@ -1,5 +1,7 @@
 const mongoose = require('mongoose')
 const validator = require('validator')
+const { ObjectId } = mongoose.Schema.Types;
+
 const studentSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -53,6 +55,14 @@ const studentSchema = new mongoose.Schema({
             }
         }
     },
+    following: [{
+        type: ObjectId,
+        ref: "User"
+    }],
+    followers: [{
+        type: ObjectId,
+        ref: "User"
+    }],
     tokens: [{
         token: {
             type: String,

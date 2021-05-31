@@ -1,6 +1,7 @@
 let User = require('../models/user.model');
 var nodemailer = require('nodemailer');
 const { pass } = require('../config');
+const responseHandler = require("../helpers/responseHandler");
 // Fetch All Users from the DB
 const fetchAllUsers = (req, res) => {
   User.find()
@@ -67,6 +68,70 @@ const updateUser = (req, res) => {
       .then(() => res.json('Profile deleted.'))
       .catch(err => res.status(400).json('Error: ' + err));
   };
+
+//allow user to follow another user
+const followUser = async( req, res) => {
+  try{
+      if( req.user._id === req.params.user_id){
+          return res.status(405).json(responseHandler( false, 405, "Sorry, you made a follow request to yourself!", null))
+      } 
+      else{
+          const user = await User.findById( req.user._id );
+          if( user.following.includes(req.params.user_id)){
+              return res.status(405).json(responseHandler( false, 405, "Already following", null))
+          } 
+          else{
+          User.findByIdAndUpdate( req.params.user_id , {
+              $push: {followers: req.user._id}
+          },{
+              new: true
+          }, (err, result) => {
+              if(err){
+                  return res.status(400).json(responseHandler( false, 405, "Already following", null))
+              }
+          User.findByIdAndUpdate( req.user._id,{
+              $push: {following: req.params.user_id}
+          }, {
+              new: true
+          }).then((async (result) => {
+
+              try{
+                  const notification = new Notification({
+                      notificationFor: req.params.user_id,
+                      notificationBy: req.user._id,
+                      notificationTitle: `${user.Name} started following you, their user id is ${user._id}!`,
+                      followNotification: user._id,
+                      status: "unread" 
+                  }) 
+  
+                  await notification.save()
+              }
+              catch(e){
+                  console.log(e)
+                  return res
+                  .status(400)
+                  .json(
+                      responseHandler
+                      ( false, 
+                        400, 
+                        "Something went wrong", 
+                        null 
+                      )
+                  );
+              }
+
+              const {role, _id, Name, email, following, followers} = result
+
+              res.status(200).json(responseHandler(true, 200, "Followed!", {role, _id, Name, email, following, followers}));
+          }))
+      }) } }
+        
+  } catch (e) {
+      console.log(e)
+      return res.status(400).json(responseHandler( false, 400, "Something went wrong", null ));
+  }
+
+}
   
   // Emailer
   const sendEmail = (req, res) => {
@@ -145,6 +210,7 @@ const updateUser = (req, res) => {
   
   module.exports = {fetchAllUsers,
     fetchUserByEmail,
+    followUser,
     addNewUser,
     updateUser,
     deleteUser,
