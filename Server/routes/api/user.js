@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const userController = require('../controllers/user.controller');
+const userController = require('../../controller/user.controller');
 
 router.route('/').get(userController.fetchAllUsers);
 router.route('/:email').get(userController.fetchUserByEmail);

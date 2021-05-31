@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const adminController = require('../controller/admin.controller');
-const admin = require('../middleware/admin');
+const adminController = require('../../controller/admin.crontoller');
+const admin = require('../../common-middleware/admin');
 
 router.get('/users', admin, adminController.getUsers);
 router.get('/user/:id', admin, adminController.getUserById);

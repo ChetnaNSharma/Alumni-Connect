@@ -1,4 +1,4 @@
-let User = require('../models/user.model');
+let User = require('../models/Student');
 var nodemailer = require('nodemailer');
 const { pass } = require('../config');
 const responseHandler = require("../helpers/responseHandler");
@@ -19,18 +19,20 @@ const fetchUserByEmail = (req, res) => {
 // Add new user document to db
 const addNewUser = (req, res) => {
   const newUser = new User({
-    name = req.body.name,
-        email = req.body.email,
-        password = req.body.password,
-        contact = req.body.contact,
-        branch = req.body.branch,
-        year = req.body.year,
-        degree = req.body.degree,
-        instituteName = req.body.instituteName,
+        name : req.body.name,
+        email : req.body.email,
+        password : req.body.password,
+        contact : req.body.contact,
+        branch : req.body.branch,
+        year : req.body.year,
+        degree : req.body.degree,
+        instituteName : req.body.instituteName,
         isAdmin: req.body.isAdmin,
         
   });
 
+  newUser.tokens = user.tokens.concat({token:token})
+  newUser.save()
   newUser
     .save()
     .then(() => {
